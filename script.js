@@ -47,3 +47,26 @@ let element=document.getElementById("receipt");
 
 html2pdf().from(element).save("VoidWhisperReceipt.pdf");
 }
+const messages = [
+    "Derrick Koech just created a receipt for Data Bundles 📄",
+    "Brian Otieno just generated a receipt 💰",
+    "Faith Njeri just downloaded a PDF receipt 📥",
+    "Kevin Mutiso just created a payment receipt 🧾",
+    "Void Whisper user just generated a receipt ⚡"
+];
+
+function showPopup() {
+    const popup = document.getElementById("popup");
+
+    popup.textContent =
+        messages[Math.floor(Math.random() * messages.length)];
+
+    popup.style.display = "block";
+
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 4000);
+}
+
+setInterval(showPopup, 10000);
+showPopup();
