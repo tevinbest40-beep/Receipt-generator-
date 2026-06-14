@@ -127,3 +127,22 @@ border-radius:10px;
 .service-box:hover{
     transform:scale(1.05);
 }
+.logo{
+text-align:center;
+margin-top:20px;
+}
+
+.logo img{
+width:150px;
+filter:drop-shadow(0 0 20px #c084fc);
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+transform:scale(1);
+}
+to{
+transform:scale(1.05);
+}
+                             }
