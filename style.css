@@ -146,3 +146,14 @@ to{
 transform:scale(1.05);
 }
                              }
+.popup{
+position:fixed;
+top:20px;
+right:20px;
+background:#a855f7;
+padding:15px;
+border-radius:10px;
+display:none;
+box-shadow:0 0 20px #c084fc;
+z-index:999;
+}
