@@ -1,0 +1,101 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0a0118;
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+}
+
+.hero{
+text-align:center;
+padding:50px 20px;
+}
+
+.hero h1{
+font-size:3rem;
+color:#c084fc;
+text-shadow:0 0 10px #c084fc,
+             0 0 20px #c084fc,
+             0 0 40px #c084fc;
+}
+
+.hero p{
+margin-top:10px;
+font-size:1.2rem;
+color:#ddd;
+}
+
+.card{
+width:90%;
+max-width:600px;
+margin:30px auto;
+padding:25px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border:1px solid rgba(192,132,252,0.4);
+border-radius:20px;
+box-shadow:0 0 20px rgba(192,132,252,0.4);
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+background:#111;
+border:1px solid #c084fc;
+color:white;
+border-radius:10px;
+}
+
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:#a855f7;
+color:white;
+font-size:1rem;
+cursor:pointer;
+box-shadow:0 0 15px #a855f7;
+}
+
+button:hover{
+transform:scale(1.03);
+}
+
+#receipt{
+margin-top:20px;
+padding:20px;
+border:1px solid #c084fc;
+border-radius:15px;
+display:none;
+}
+
+.services{
+padding:40px 20px;
+text-align:center;
+}
+
+.service-box{
+margin:15px;
+padding:20px;
+background:#130626;
+border-radius:15px;
+box-shadow:0 0 15px rgba(168,85,247,.4);
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
