@@ -157,3 +157,15 @@ display:none;
 box-shadow:0 0 20px #c084fc;
 z-index:999;
 }
+.popup {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background: #111;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0 0 15px rgba(0,255,255,0.5);
+}
