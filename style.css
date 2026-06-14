@@ -99,3 +99,31 @@ color:white;
 text-decoration:none;
 border-radius:10px;
 }
+.banner{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.banner h2{
+    color:#c084fc;
+    text-shadow:0 0 20px #c084fc;
+}
+
+.services{
+    padding:40px 20px;
+}
+
+.service-box{
+    margin:15px auto;
+    max-width:500px;
+    padding:20px;
+    background:rgba(255,255,255,0.05);
+    border-radius:15px;
+    border:1px solid #a855f7;
+    box-shadow:0 0 20px rgba(168,85,247,.5);
+    transition:.3s;
+}
+
+.service-box:hover{
+    transform:scale(1.05);
+}
